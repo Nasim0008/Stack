@@ -9,12 +9,14 @@ int main()
     s.push("Mobile");
     s.push("Calculator");
     s.push("Tessue");
-    cout<< s.size()<<endl;
+    cout<< "Size : "<< s.size()<<endl;
+   int cnt=0;
 
     while(!s.empty())
     {
-        cout<<s.top()<<endl;
-        s.pop();
+             s.pop();
+             cnt++;
     }
+    cout<< "Size : "<<cnt<<endl;
 }
 
